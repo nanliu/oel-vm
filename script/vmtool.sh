@@ -47,3 +47,5 @@ fi
 
 echo "==> Removing packages needed for building guest tools"
 yum -y remove gcc cpp kernel-devel kernel-headers perl
+echo "==> Installing lsb core"
+yum -y install redhat-lsb-core
